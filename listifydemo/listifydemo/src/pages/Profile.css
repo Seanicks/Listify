@@ -1,0 +1,65 @@
+.profile-container {
+  width: 50vh;
+  height: 40vh;
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+}
+
+.profileHeader hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Styling for the container around Profile */
+.profile-box {
+  display: inline-block;
+  background-color: #4b6cb7; /* Same color as welcome */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.profile-details hr {
+  margin-top: 20px; /* Adjust this value as needed */
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* Change font color for Profile and all following text */
+.profile-details {
+  color: #4b6cb7; /* Set the color to your desired color */
+}
+
+.username {
+  color: white;
+  font-size: 20px; /* Adjust size of username */
+  margin-right: 10px;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-text {
+  margin-right: 5px; /* Adjust spacing as needed */
+  color: #4b6cb7; /* Example color */
+  font-weight: bold;
+}
+
+.edit-button {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+}
+
+.logout-button {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+}
